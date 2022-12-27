@@ -110,3 +110,23 @@ header .button:hover a {
 	transition: all 0.3s ease-in-out;
 	text-decoration: none;
 }
+
+/* *********************************** LANGAGES ***************************************** */
+#langages {
+	padding: 80px 80px 80px 50px;
+	margin: 20px 0 0 6%;
+	height: 620px;
+	width: 47%;
+	max-width: 640px;
+	background: linear-gradient(
+		131deg,
+		#f12711 0%,
+		rgba(245, 175, 25, 0.42) 99%
+	);
+	clip-path: polygon(0 5%, 100% 0, 89% 100%, 0 92%);
+}
+
+#langages .bar {
+	padding: 10px 0 4px;
+	letter-spacing: 0.1em;
+}
